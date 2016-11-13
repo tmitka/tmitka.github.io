@@ -60,8 +60,8 @@ a:visited {
 }
 
 
-@media screen and (max-width: 500px) {
-  body {
-    background-color: hotpink;
+@media screen and (max-width: 775px) {
+  .main {
+  	font-size: 10px;
   }
 }
