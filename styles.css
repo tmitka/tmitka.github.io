@@ -19,9 +19,17 @@ li a:hover {
 }
 
 
-footer{
+.oline {
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+	background-color: aqua;
     bottom: 0;
     position: relative;
     width: 100%;
+    text-align: center;
 }
 
