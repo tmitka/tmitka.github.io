@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Trivia Game</title>
+</head>
+<body>
+    <h1>Zelda: Ocarina of Time Trivia</h1>
+
+    <div id="start">
+        <button type="button">Start</button>
+    </div>
+
+    <div id="game">
+        <div id="timer"></div>
+        <div id="triviaQuestions">
+                <form id="questionOne">
+                    <p>You control a character named Zelda</p>
+                    <input type="radio" name="answerOne" value="wrongAnswerOne"> True<br>
+                    <input type="radio" name="answerOne" value="rightAnswerOne"> False<br>
+                </form>
+
+                <form id="questionTwo">
+                    <p>Ocarina of Time was released in 1995</p>
+                    <input type="radio" name="answerTwo" value="wrongAnswerTwo"> True<br>
+                    <input type="radio" name="answerTwo" value="rightAnswerTwo"> False<br>
+                </form>
+
+                <form id="questionThree">
+                    <p>The name of Link's fairy is Navi</p>
+                    <input type="radio" name="answerThree" value="rightAnswerThree"> True<br>
+                    <input type="radio" name="answerThree" value="wrongAnswerThree"> False<br>
+                </form>
+
+                <form id="questionFour">
+                    <p>There are seven sages in the game.</p>
+                    <input type="radio" name="answerFour" value="rightAnswerFour">True<br>
+                    <input type="radio" name="answerFour" value="wrongAnswerFour"> False<br>
+                </form>
+
+                 <form id="questionFive">
+                    <p>Ganondorf is the name of the main villain.</p>
+                    <input type="radio" name="answerFive" value="rightAnswerFive"> True<br>
+                    <input type="radio" name="answerFive" value="wrongAnswerFive"> False<br>
+                </form>
+                <input type="button" value="Done" onclick="return false" />
+        </div>
+
+    </div>
+
+    <div id="answers">
+
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
